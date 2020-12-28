@@ -1,0 +1,213 @@
+%-------------------------
+% William Law - Software Engineer Resume
+% Author : William Law
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{amsmath}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small\text
+    #1
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large #1} & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[1]{
+    \resumeItem{#1} 
+    \vspace{-4pt}
+}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}\itemsep0em}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://wlawt.com/}{\Huge William Law}} & Email: \href{mailto:william.law@uwaterloo.ca}{william.law@uwaterloo.ca}\\
+  \href{https://wlawt.com/}{www.wlawt.com} & LinkedIn:
+  \href{https://linkedin.com/in/william-t-law/}{linkedin.com/in/william-t-law/} \\& Github:
+  \href{https://github.com/wlawt/}{github.com/wlawt} 
+  %\href{https://github.com/wlawt/}{github.com/wlawt} %& Dribbble:
+  %\href{https://dribbble.com/wlawt}{dribbble.com/wlawt}
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+       \large\textbf{University of Waterloo} & \text\small{Sept. 2020 - Apr. 2025 (Expected)}\\
+        \small{\textit{Honours, Bachelor of Computer Science}} & \small{GPA: 3.82 / 4.00}
+    \end{tabular*}
+  %\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    % MLH Fellowship
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+        \href{https://fellowship.mlh.io/}{\large\textbf{Major League Hacking}} & \text\small{Toronto, ON}\\
+        \small{\textit{Software Engineering Fellow (Backend)}} & \small{\textit{Jun. 2020 - Aug. 2020}}\vspace{3pt}
+    \end{tabular*}
+    \begin{itemize}[topsep=1pt]\itemsep0em
+        \item\small\text 
+            Managed a team of 8 to develop Babel Sandbox, an updated version to Babel REPL using React and SailsJS
+        \item\small\text 
+            Idenified and increased test coverage from 82\% to 96\% for SheetJS browser tests using MochaJS.
+        \item\small\text 
+            Contributed to Babel for v7.10.3 and v7.10.4, a compiler package with 7M+ downloads, via bug patches
+        \item\small\text 
+            Developed js-word, a Word processing library starred by 1.1k+ users and downloaded 50k+/weekly by
+          
+            collaborating in a group of 7
+    \end{itemize}
+    
+    \vspace{7pt}
+    
+    % Ascend Build
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+        \href{https://ascendbuild.co/}{\large\textbf{Ascend Build}} & \text\small{Toronto, ON}\\
+        \small{\textit{Software Engineering Intern (Product)}} & \small{\textit{Feb. 2020 - May 2020}}\vspace{3pt}
+    \end{tabular*}
+    \begin{itemize}[topsep=1pt]\itemsep0em
+        \item\small\text 
+            Raised \$200k in seed round by building the initial product and infrastructure for 30 users in JavaScript.
+        \item\small\text 
+            Created and implemented the initial pipeline for processing and searching large GeoJSON files by 
+          
+            developing data preprocessing functions for specific metadata in JavaScript.
+        \item\small\text 
+            Co-led the frontend development and design by using React, Material UI, and the Mapbox API.
+    \end{itemize}
+
+    \vspace{7pt}
+    
+    % WorkPlace21
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+        \href{https://wp21.com/}{\large\textbf{WorkPlace21}} & \text\small{Seattle, WA}\\
+        \small{\textit{Software Developer Intern (Product)}} & \small{\textit{Sept. 2019 - Dec. 2019}}\vspace{3pt}
+    \end{tabular*}
+    \begin{itemize}[topsep=1pt]\itemsep0em
+        \item\small\text 
+            Increased the number of early-stage registrations by 100\% by redesigning the complete website with 
+            
+            an emphasis on the UX using Bootstrap 4.
+        \item\small\text 
+            Reduced monthly expenses by 85\% by migrating the onboarding website to React and improving its scalability.
+        \item\small\text 
+            Idenified and fixed CRUD-related bugs and issues for business logic workflows using Ruby on Rails and PostgreSQL.
+    \end{itemize}
+
+      
+  %\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+        \href{https://github.com/SheetJS/sheetaki}{\textbf{Sheetaki - Distributed CSV Conversion API}} & \text\small{Nginx, Droplet}
+    \end{tabular*}
+    \begin{itemize}[topsep=1pt]\itemsep0em
+        \item\small\text 
+            Implemented Nginx load balancing into the service to horizontally scale to multiple Droplets.
+        \item\small\text 
+            Implemented an API token-based rate limiting feature for three different tiers of utilization.
+    \end{itemize}
+    
+    \vspace{7pt}
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+        \href{https://www.holygrail.ai/}{\textbf{Holy Grail AI (YC S19) - Machine Learning Testing Framework}} & \text\small{Python}
+    \end{tabular*}
+    \begin{itemize}[topsep=1pt]\itemsep0em
+        \item\small\text 
+            Built an end-to-end testing and training system to measure the performance of Bayesian Neural Networks.
+        \item\small\text 
+            Developed tooling features in Python to log specific model data into a CSV.
+    \end{itemize}
+    
+    \vspace{7pt}
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+        \href{https://github.com/wlawt/covid19-project}{\textbf{COVID-19 - Data Visualization}} & \text\small{SciKit, Python}
+    \end{tabular*}
+    \begin{itemize}[topsep=1pt]\itemsep0em
+        \item\small\text 
+            Wrote scripts that would auto-update the dataset and execute data preprocessing functions to clean the data.
+        \item\small\text 
+            Presented the data by building linear regression models to forecast COVID-19 figures 2 weeks in advanced.
+    \end{itemize}
+    
+    \vspace{7pt}
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+        \href{https://github.com/wlawt/ideaspace}{\textbf{IdeaSpace}} & \text\small{Java, SpringBoot}
+    \end{tabular*}
+    \begin{itemize}[topsep=1pt]\itemsep0em
+        \item\small\text 
+            Created an authentication system in Spring Web and Security to register and authenticate users.
+        \item\small\text 
+            Wrote custom search algorithms in JavaScript to efficiently retrieve the data between the front and back-end client.
+    \end{itemize}
+
+  %\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+\section{Skills}
+  \resumeSubHeadingListStart
+    C/C++, JavaScript, Python, Java, React, NodeJS, ExpressJS, MongoDB, PostgreSQL, Git, Cloud (AWS, Azure), Testing (MochaJS, Jest), Scripting (Bash, Powershell), System Design
+    
+  %\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
